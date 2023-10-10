@@ -1,0 +1,82 @@
+body {
+	
+}
+
+#banner {
+	width: 100%;
+}
+
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
+}
+
+.titulo-principal {
+	padding-left: 20px;
+}
+
+.titulo-centralizado {
+	text-align: center;
+	font-size: 40px;
+	border: 10px solid #000000; 
+	padding: 20px; 
+	margin-right: 50px; 
+	margin-left: 50px;
+}
+
+p {
+	text-align: center;
+	font-size: 25px;
+}
+
+#missao {
+	font-size: 30px;
+}
+
+em strong {
+	color: #FF0000;
+}
+
+
+.beneficios {
+	background: #ffffff;
+	padding: 20px;
+}
+
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.itens {
+	font-style: italic;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.imagembeneficios {
+	width: 50%;
+}
+
+
+modelo rgb(00,00,00) esse modelo aplica a cor em vermelho, verde e azul que pode ir desde 0 até 255.
+
+hexadecimal 123456789abcdef - podemos representar as cores dessa forma também. é como foi aplicada no código atual.
+
+
+
+padding: 15px; <!-borda-> espaçamento interno
+
+margin-right: 200px; <!-espaçamento/margem interna->
+
+margin-left: 200px; <!-espaçamento/margem externa->
+
+<!- diferença entre identificador e classes. os identificadores são para itens únicos, não podendo serem repetidos. Já as classes podem ser repetidas mais de uma->
+<!- vez. Por padrão, é melhor criamos classes que identificadores, pois elas são mais fáceis de realizarmos manutenções no futuro.->
+
+<!-Para criar a divisão de conteúdos dentro de uma página, podemos utilizar a tag <div>; ela é responsável por realizar as divisões e separações dentro do que->
+<!- precisamos. Podemos utilizar junto a ela as classes para podemos realizar as alterações dentro do CSS->
+
